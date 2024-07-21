@@ -1,6 +1,13 @@
+import { Metadata } from "next";
 import { Button, Input, Label } from "../components";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Skillsync - Sign in",
+  description:
+    "Connect with the perfect partner for personal and professional growth. Discover, connect, and achieve your goals together.",
+};
 
 export default function Signin() {
   return (
