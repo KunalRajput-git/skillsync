@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { SendFill } from "../../../node_modules/react-bootstrap-icons/dist/index";
 
 const Card = () => {
   return (

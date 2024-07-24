@@ -1,5 +1,5 @@
-import Card from "../components/Card";
-import Filter from "../components/Filter";
+import Card from "@/components/Card";
+import Filter from "@/components/Filter";
 
 const Discover = () => {
   return (

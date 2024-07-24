@@ -3,7 +3,7 @@ import { Github, Mailbox, Linkedin } from "react-bootstrap-icons";
 
 const Footer = () => {
   return (
-    <footer className="py-12  border-t-2">
+    <footer className="py-12 border-t-2">
       <div className="w-11/12 flex flex-col md:flex-row justify-between font-semibold m-auto">
         <div className=" md:w-1/3 text-gray-500 ">
           <h1 className="text-emerald-500 text-2xl">Skill Sync.</h1>

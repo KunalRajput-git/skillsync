@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Button, Input, Label } from "../components";
+import { Button, Input, Label } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 

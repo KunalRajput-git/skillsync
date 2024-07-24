@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Button, Input, Label } from "@/app/components";
+import { Button, Input, Label } from "@/components";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 const Profile = () => {
   return (
     <>
-      <div className="p-14 bg-emerald-500 rounde2xl"></div>
-      <div className="p-8 relative">
+      <div className="p-14 bg-emerald-500"></div>
+      <div className="p-8 relative pb-12">
         <div className="absolute -top-12 border-8 border-white rounded-full">
           <Image
             src="https://shorturl.at/sr5ui"
@@ -46,15 +46,15 @@ const Profile = () => {
           </p>
         </div>
         <div className="mt-6">
-          <h1 className="text-xl md:text-2xl font-bold">Finding Partner in </h1>
+          <h1 className="text-xl md:text-2xl font-bold">Finding Partner In </h1>
           <div className="mt-2 flex gap-3 md:gap-4 flex-wrap">
-            <h3 className="border text-sm md:text-base w-max bg-emerald-500 py-1 px-3 rounded-3xl text-white font-bold">
+            <h3 className="border text-sm md:text-base w-max bg-emerald-500 py-1 px-3 md:px-4 md:py-2 rounded-3xl text-white font-bold">
               Data Structures And Algorithms
             </h3>
-            <h3 className="border text-sm md:text-base w-max bg-emerald-500 py-1 px-3 rounded-3xl text-white font-bold">
+            <h3 className="border text-sm md:text-base w-max bg-emerald-500 py-1 px-3 md:px-4 md:py-2 rounded-3xl text-white font-bold">
               Frontend Development
             </h3>
-            <h3 className="border text-sm md:text-base w-max bg-emerald-500 py-1 px-3 rounded-3xl text-white font-bold">
+            <h3 className="border text-sm md:text-base w-max bg-emerald-500 py-1 px-3 md:px-4 md:py-2 rounded-3xl text-white font-bold">
               Backend Development
             </h3>
           </div>
